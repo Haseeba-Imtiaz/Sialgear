@@ -156,7 +156,7 @@ body, html, #root {
   width: 100vw;
   height: 85vh;
   background: linear-gradient(rgba(48, 46, 46, 0.5), rgba(44, 42, 42, 0.5)), 
-              url('\hero.png');
+              url('/hero.png');
   background-size: cover;
   background-position: center;
   display: flex;
