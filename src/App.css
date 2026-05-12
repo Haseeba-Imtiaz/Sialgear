@@ -463,23 +463,27 @@ body, html, #root {
   cursor: pointer;
   margin: 0 5px;
 }
-/* --- RESPONSIVE DESIGN (MOBILE FIXES) --- */
-
 @media (max-width: 768px) {
-  /* 1. Header/Navbar Fixes */
-  .header-icons {
-    gap: 10px; /* Icons ka fasla kam */
+  /* 1. Navbar Fix */
+  .nav-container-full {
+    padding: 0 15px !important; /* Side padding kam karein taake icons na chupen */
   }
 
-  /* 2. Hero Section Fixes */
+  /* 2. Hero Section Text Fix */
   .hero-content h1 {
-    font-size: 32px; /* Text chota ho jaye ga */
+    font-size: 28px !important; /* "ELE VATE" ko ek line mein laane ke liye */
   }
 
-  /* 3. Footer Fixes */
-  .footer-container {
-    flex-direction: column; /* Columns ek ke niche ek aa jayenge */
+  /* 3. Footer Fix (Sabse Zaroori) */
+  .footer-container, .footer-main-content {
+    flex-direction: column !important; /* Is se columns ek ke niche ek aayenge */
+    align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 30px;
+  }
+
+  /* Footer ke har hissay ko puri width dein */
+  .footer-container > div, .footer-main-content > div {
+    width: 100% !important;
   }
 }
