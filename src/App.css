@@ -548,21 +548,69 @@ body, html, #root {
     padding: 10px 25px !important;
   }
    /* --- FOOTER SECTION (Naya Code) --- */
-  .footer-section {
-    padding: 40px 20px !important;
-    text-align: center !important;
+   .apollo-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
   }
-  .footer-title {
-    font-size: 16px !important;
-    margin-bottom: 10px !important;
+.apollo-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-item {
+  border-bottom: 1px solid #333;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+  .footer-item {
+    border-bottom: 1px solid #333; /* Sections ke darmiyan halki line */
   }
-  .footer-links a {
-    font-size: 13px !important;
-    margin-bottom: 8px !important;
+
+  .footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
   }
-  .footer-bottom {
-    flex-direction: column !important;
-    gap: 10px !important;
-    font-size: 11px !important;
+
+  .footer-header h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
   }
+
+  .plus-icon {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0 0 15px 0;
+    margin: 0;
+    animation: fadeIn 0.3s ease-in; /* Khulne ka effect */
+  }
+
+  .footer-links li {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 12px;
+    padding-left: 5px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
 }
