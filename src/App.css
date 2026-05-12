@@ -463,3 +463,23 @@ body, html, #root {
   cursor: pointer;
   margin: 0 5px;
 }
+/* --- RESPONSIVE DESIGN (MOBILE FIXES) --- */
+
+@media (max-width: 768px) {
+  /* 1. Header/Navbar Fixes */
+  .header-icons {
+    gap: 10px; /* Icons ka fasla kam */
+  }
+
+  /* 2. Hero Section Fixes */
+  .hero-content h1 {
+    font-size: 32px; /* Text chota ho jaye ga */
+  }
+
+  /* 3. Footer Fixes */
+  .footer-container {
+    flex-direction: column; /* Columns ek ke niche ek aa jayenge */
+    text-align: center;
+    gap: 20px;
+  }
+}
