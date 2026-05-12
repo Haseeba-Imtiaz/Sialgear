@@ -547,16 +547,22 @@ body, html, #root {
     margin-top: 10px !important;
     padding: 10px 25px !important;
   }
-  /* 3. Footer Fix (Sabse Zaroori) */
-  .footer-container, .footer-main-content {
-    flex-direction: column !important; /* Is se columns ek ke niche ek aayenge */
-    align-items: center;
-    text-align: center;
-    gap: 30px;
+   /* --- FOOTER SECTION (Naya Code) --- */
+  .footer-section {
+    padding: 40px 20px !important;
+    text-align: center !important;
   }
-
-  /* Footer ke har hissay ko puri width dein */
-  .footer-container > div, .footer-main-content > div {
-    width: 100% !important;
+  .footer-title {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+  .footer-links a {
+    font-size: 13px !important;
+    margin-bottom: 8px !important;
+  }
+  .footer-bottom {
+    flex-direction: column !important;
+    gap: 10px !important;
+    font-size: 11px !important;
   }
 }
