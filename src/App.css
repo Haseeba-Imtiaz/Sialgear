@@ -447,22 +447,6 @@ body, html, #root {
   font-size: 14px;
 }
 
-/* Bottom Bar */
-.footer-bottom-bar {
-  border-top: 1px solid #333;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 25px;
-  font-size: 13px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.bottom-left span {
-  cursor: pointer;
-  margin: 0 5px;
-}
 @media (max-width: 768px) {
   /* Navbar Container: Sab items ko space dene ke liye */
   .nav-container-full {
@@ -547,70 +531,112 @@ body, html, #root {
     margin-top: 10px !important;
     padding: 10px 25px !important;
   }
-   /* --- FOOTER SECTION (Naya Code) --- */
-   .apollo-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-.apollo-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
+  .apollo-footer {
+  background-color: #000; /* Pure black background */
+  color: #ffffff;
+  padding: 50px 0 20px 0;
+  font-family: Arial, sans-serif;
 }
 
-.footer-item {
-  border-bottom: 1px solid #333;
+/* Container for the 4 columns */
+.footer-main-content {
+  display: flex;
+  justify-content: space-around; /* Columns ke darmiyan barabar jagah */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap; /* Mobile par adjust hone ke liye */
 }
 
-.footer-header {
+/* Individual Column Styling */
+.footer-column {
+  margin-bottom: 30px;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; /* Heading baray huroof mein */
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-column ul {
+  list-style: none; /* Dots khatam karne ke liye */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  font-size: 13px;
+  color: #cccccc; /* Thora light white rang */
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column ul li:hover {
+  color: #ffffff; /* Hover par pure white */
+}
+
+/* Contact Column Specifics */
+.contact-col p {
+  font-size: 13px;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.contact-number {
+  font-weight: bold;
+  color: #ffffff !important;
+  font-size: 15px !important;
+}
+
+.social-links-footer {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-links-footer span {
+  cursor: pointer;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+/* Bottom Bar (Privacy Policy & Copyright) */
+.footer-bottom-bar {
+  border-top: 1px solid #222; /* Patli line footer ke upar */
+  margin-top: 40px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
-}
-  .footer-item {
-    border-bottom: 1px solid #333; /* Sections ke darmiyan halki line */
-  }
-
-  .footer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    cursor: pointer;
-  }
-
-  .footer-header h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-
-  .plus-icon {
-    font-size: 20px;
-    font-weight: 300;
-  }
-
-  .footer-links {
-    list-style: none;
-    padding: 0 0 15px 0;
-    margin: 0;
-    animation: fadeIn 0.3s ease-in; /* Khulne ka effect */
-  }
-
-  .footer-links li {
-    font-size: 13px;
-    color: #999;
-    margin-bottom: 12px;
-    padding-left: 5px;
-  }
+  font-size: 11px;
+  color: #888888;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-5px); }
-  to { opacity: 1; transform: translateY(0); }
+.bottom-left span {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.bottom-left span:hover {
+  color: #ffffff;
+}
+
+/* Responsive Setting: Mobile ke liye */
+@media (max-width: 768px) {
+  .footer-main-content {
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer-bottom-bar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
 }
