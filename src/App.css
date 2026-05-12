@@ -464,44 +464,63 @@ body, html, #root {
   margin: 0 5px;
 }
 @media (max-width: 768px) {
-  /* Logo ka size thora chota karein */
-  .logo img {
-    width: 120px !important; 
+  /* Navbar: Men/Women ko hide kar dein taake jagah bane */
+  .left-side-nav {
+    display: none !important; 
   }
 
-  /* Nav container ki padding kam karein */
+  /* Logo ko Center mein laane ke liye */
   .nav-container-full {
-    padding: 0 10px !important;
-    gap: 5px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 15px !important;
   }
 
-  /* Menu links ka font size chota karein taake icons ko jagah mile */
-  .left-side-nav a {
-    font-size: 12px !important;
-    margin: 0 5px !important;
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
-  /* Icons ka size aur darmiyan fasla kam karein */
+  .logo img {
+    width: 80px !important; /* Size reference from image_147.png */
+  }
+
+  /* Icons ko right side par set karein */
   .header-icons {
-    gap: 8px !important;
+    margin-left: auto;
+    gap: 12px !important;
   }
-  
-  .header-icons svg, .header-icons img {
-    width: 18px !important;
-    height: 18px !important;
-  }
-   .hero-banner {
-    align-items: flex-start !important; /* Center se Left par move karne ke liye */
-    padding-left: 20px !important;
-    text-align: left !important;
+
+  /* Hero Section: Center Text Layout */
+  .hero-banner {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important; /* Text ko thora niche rakhne ke liye */
+    align-items: center !important;
+    text-align: center !important;
+    padding-bottom: 60px !important;
   }
 
   .hero-content h1 {
-    font-size: 35px !important; /* Thora bada size */
-    line-height: 1.2;
-    width: 90% !important;
+    font-size: 42px !important; /* Bada aur bold impact */
+    font-weight: 900 !important;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    width: 100% !important;
   }
-  
+
+  .hero-content p {
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .explore-btn {
+    padding: 12px 30px !important;
+    font-size: 12px !important;
+  }
   /* 3. Footer Fix (Sabse Zaroori) */
   .footer-container, .footer-main-content {
     flex-direction: column !important; /* Is se columns ek ke niche ek aayenge */
