@@ -464,16 +464,44 @@ body, html, #root {
   margin: 0 5px;
 }
 @media (max-width: 768px) {
-  /* 1. Navbar Fix */
+  /* Logo ka size thora chota karein */
+  .logo img {
+    width: 120px !important; 
+  }
+
+  /* Nav container ki padding kam karein */
   .nav-container-full {
-    padding: 0 15px !important; /* Side padding kam karein taake icons na chupen */
+    padding: 0 10px !important;
+    gap: 5px !important;
   }
 
-  /* 2. Hero Section Text Fix */
+  /* Menu links ka font size chota karein taake icons ko jagah mile */
+  .left-side-nav a {
+    font-size: 12px !important;
+    margin: 0 5px !important;
+  }
+
+  /* Icons ka size aur darmiyan fasla kam karein */
+  .header-icons {
+    gap: 8px !important;
+  }
+  
+  .header-icons svg, .header-icons img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+   .hero-banner {
+    align-items: flex-start !important; /* Center se Left par move karne ke liye */
+    padding-left: 20px !important;
+    text-align: left !important;
+  }
+
   .hero-content h1 {
-    font-size: 28px !important; /* "ELE VATE" ko ek line mein laane ke liye */
+    font-size: 35px !important; /* Thora bada size */
+    line-height: 1.2;
+    width: 90% !important;
   }
-
+  
   /* 3. Footer Fix (Sabse Zaroori) */
   .footer-container, .footer-main-content {
     flex-direction: column !important; /* Is se columns ek ke niche ek aayenge */
