@@ -464,62 +464,88 @@ body, html, #root {
   margin: 0 5px;
 }
 @media (max-width: 768px) {
-  /* Navbar: Men/Women ko hide kar dein taake jagah bane */
-  .left-side-nav {
-    display: none !important; 
-  }
-
-  /* Logo ko Center mein laane ke liye */
+  /* Navbar Container: Sab items ko space dene ke liye */
   .nav-container-full {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     padding: 0 15px !important;
+    position: relative !important;
+    height: 80px !important; /* Height fix taake logo nazar aaye */
   }
 
+  /* Men/Women ko hide rakhein */
+  .left-side-nav {
+    display: none !important;
+  }
+
+  /* Logo ko Center mein laane ka behtar tareeka */
   .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    z-index: 10;
   }
 
   .logo img {
-    width: 80px !important; /* Size reference from image_147.png */
+    width: 90px !important; /* Size check karein */
+    height: auto !important;
+    display: block !important;
   }
 
-  /* Icons ko right side par set karein */
+  /* Icons ko right side par push karein */
   .header-icons {
-    margin-left: auto;
-    gap: 12px !important;
+    margin-left: auto !important;
+    display: flex !important;
+    gap: 10px !important;
+    z-index: 20;
   }
 
-  /* Hero Section: Center Text Layout */
+  .header-icons svg, .header-icons img {
+    width: 18px !important;
+  }
+
+  /* Hero Section Alignment (Same as before but centered) */
   .hero-banner {
     display: flex !important;
     flex-direction: column !important;
-    justify-content: flex-end !important; /* Text ko thora niche rakhne ke liye */
+    justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
-    padding-bottom: 60px !important;
   }
 
   .hero-content h1 {
-    font-size: 42px !important; /* Bada aur bold impact */
-    font-weight: 900 !important;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    width: 100% !important;
+    font-size: 38px !important;
+    line-height: 1.1;
   }
 
-  .hero-content p {
-    font-size: 14px !important;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+  .hero-banner {
+    display: flex !important;
+    flex-direction: column !important;
+    /* justify-content ko center rakhein taake alignment na bigre */
+    justify-content: center !important; 
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .hero-content {
+    /* Is se text thora upar move ho jayenge */
+    margin-top: -80px !important; 
+    padding: 0 20px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 38px !important;
+    line-height: 1.1;
+    font-weight: 800 !important;
+    margin-bottom: 15px !important;
   }
 
   .explore-btn {
-    padding: 12px 30px !important;
-    font-size: 12px !important;
+    margin-top: 10px !important;
+    padding: 10px 25px !important;
   }
   /* 3. Footer Fix (Sabse Zaroori) */
   .footer-container, .footer-main-content {
