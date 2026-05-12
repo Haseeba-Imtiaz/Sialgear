@@ -474,24 +474,27 @@ body, html, #root {
     height: 80px !important; /* Height fix taake logo nazar aaye */
   }
 
-  /* Men/Women ko hide rakhein */
-  .left-side-nav {
-    display: none !important;
+   .left-side-nav {
+    display: flex !important; /* Isay wapas layein */
   }
 
-   .logo, .main-logo, .nav-logo {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    height: 60px !important;
-    width: auto !important;
+  .nav-links {
+    display: none !important; /* Sirf links (MEN, WOMEN) ko chupayein */
   }
-  
-  .logo img, .main-logo img {
+
+  .logo-area {
     display: block !important;
-    height: 100% !important;
-    width: auto !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
+
+  .main-logo {
+    height: 40px !important;
+    width: auto !important;
+    display: block !important;
+  }
+}
 
   /* Icons ko right side par push karein */
   .header-icons {
