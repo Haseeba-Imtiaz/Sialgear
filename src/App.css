@@ -484,14 +484,14 @@ body, html, #root {
 
   .logo-area {
     display: block !important;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static !important;
+    margin-right: auto !important;
+    transform: none !important;
   }
 
   .main-logo {
-    height: 40px !important;
-    width: auto !important;
+    height: auto !important;
+    width: 150px !important;
     display: block !important;
   }
 
