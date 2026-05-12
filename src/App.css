@@ -479,20 +479,21 @@ body, html, #root {
     display: none !important;
   }
 
-  /* Logo ko Center mein laane ka behtar tareeka */
+  .main-logo {
+    height: 50px !important; /* 200px se kam karke 50px kar dein */
+    width: auto !important;
+    display: block !important;
+  }
+
+  /* Agar logo kisi div ke andar hai toh usay bhi set karein */
   .logo {
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    margin: 0 !important;
-    z-index: 10;
+    height: auto !important;
+    width: auto !important;
   }
 
   .logo img {
-    width: 90px !important; /* Size check karein */
-    height: auto !important;
-    display: block !important;
+    height: 40px !important; /* Image ki height choti rakhein */
+    width: auto !important;
   }
 
   /* Icons ko right side par push karein */
