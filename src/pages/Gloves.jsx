@@ -15,6 +15,90 @@ function Gloves() {
       price: "Rs. 2,900",
       image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
       category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
+    },
+    {
+      id: 501,
+      title: "Leather Weightlifting Gloves",
+      price: "Rs. 1,450",
+      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500",
+      category: "GYM GEAR"
+    },
+    {
+      id: 502,
+      title: "Pro Striker Boxing Gloves",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1517438322307-e6732813c596?q=80&w=500",
+      category: "COMBAT"
     }
   ];
 

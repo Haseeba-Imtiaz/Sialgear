@@ -15,6 +15,104 @@ function Football() {
       price: "Rs. 1,200",
       image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
       category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    },
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
     }
   ];
 

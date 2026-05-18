@@ -15,6 +15,118 @@ function Hockey() {
       price: "Rs. 4,200",
       image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
       category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
+    },
+     {
+      id: 701,
+      title: "Composite Composite Hockey Stick",
+      price: "Rs. 5,800",
+      image: "https://images.unsplash.com/photo-1580748141549-71748d60bdc9?q=80&w=500",
+      category: "STICKS"
+    },
+    {
+      id: 702,
+      title: "Turf Pro Hockey Shoes",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=500",
+      category: "SHOES"
     }
   ];
 

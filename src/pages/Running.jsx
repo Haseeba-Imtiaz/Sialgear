@@ -15,6 +15,132 @@ function Running() {
       price: "Rs. 3,200",
       image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
       category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
+    },
+     {
+      id: 901,
+      title: "UltraLight Cushion Running Shoes",
+      price: "Rs. 4,900",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+      category: "SHOES"
+    },
+    {
+      id: 902,
+      title: "Smart Fitness Tracker Band",
+      price: "Rs. 3,200",
+      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=500",
+      category: "ELECTRONICS"
     }
   ];
 

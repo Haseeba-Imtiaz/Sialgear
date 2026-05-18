@@ -15,6 +15,118 @@ function Jackets() {
       price: "Rs. 3,800",
       image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
       category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
+    },
+    {
+      id: 401,
+      title: "Alpha Waterproof Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 402,
+      title: "Thermal Fleece Training Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=500",
+      category: "APPAREL"
     }
     
   ];

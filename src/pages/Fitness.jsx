@@ -15,6 +15,104 @@ function Fitness() {
       price: "Rs. 1,950",
       image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
       category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
+    },
+     {
+      id: 801,
+      title: "Adjustable Dumbbell Set (20kg)",
+      price: "Rs. 7,500",
+      image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=500",
+      category: "WEIGHTS"
+    },
+    {
+      id: 802,
+      title: "Premium Anti-Slip Yoga Mat",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+      category: "ACCESSORIES"
     }
   ];
 
