@@ -28,8 +28,6 @@ function App() {
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/accessories" element={<Accessories />} />
-
-        {/* Temporary dummy routes */}
         <Route path="/fitness" element={<div style={{ color: 'white', padding: '100px', textAlign: 'center' }}><h2>FITNESS GEAR</h2><p>Coming Soon...</p></div>} />
         <Route path="/sports-brand" element={<div style={{ color: 'white', padding: '100px', textAlign: 'center' }}><h2>SPORTS BRAND</h2><p>Coming Soon...</p></div>} />
         <Route path="/jackets" element={<Jackets />} />
