@@ -59,8 +59,8 @@ function Home() {
         <div className="section-title-container">
           <h2 className="boxed-title">SHOP BY CATEGORY</h2>
         </div>
-        <Link to="/men" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
-        <div className="category-grid-container">
+         <div className="category-grid-container">
+        <Link to="/men" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
           {/* Left Side - Bari Picture (MEN) */}
           <div className="category-card large-card">
             <img src="/men.jpg" alt="Men Category" />
@@ -69,9 +69,9 @@ function Home() {
               <p>CLOTHING | SHOES</p>
             </div>
       </div>
-
-          <Link to="/women" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
+          </Link>
           <div className="right-column">
+          <Link to="/women" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
             {/* Top Right (WOMEN) */}
             <div className="category-card small-card">
               <img src="/women.png" alt="Women Category" />
@@ -80,9 +80,9 @@ function Home() {
                 <p>CLOTHING | SHOES</p>
               </div>
             </div>
-            
+            </Link>
 
-            <Link to="/accessories" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
+            <Link to="/accessories" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
             <div className="category-card small-card">
               <img src="/asseccories.jpg" alt="Accessories" />
               <div className="category-info">
@@ -90,8 +90,10 @@ function Home() {
                 <p>BAGS | BOTTLES | OTHERS</p>
               </div>
             </div>
+            </Link>
           </div>
         </div>
+        
       </section>
     </>
   );
