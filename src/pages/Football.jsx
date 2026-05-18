@@ -1,0 +1,46 @@
+import ProductCard from '../components/ProductCard';
+
+function Football() {
+  const products = [
+    {
+      id: 601,
+      title: "Match Play Pro Football",
+      price: "Rs. 3,500",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
+      category: "FOOTBALL"
+    },
+    {
+      id: 602,
+      title: "Carbon Fiber Shin Guards",
+      price: "Rs. 1,200",
+      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
+      category: "GEAR"
+    }
+  ];
+
+  return (
+    <div className="category-page" style={{ paddingBottom: '60px' }}>
+      <div className="category-banner" style={{
+        backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500')",
+        backgroundSize: 'cover', backgroundPosition: 'center', height: '250px',
+        display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', color: 'white'
+      }}>
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', letterSpacing: '2px' }}>FOOTBALL</h1>
+        <p style={{ color: '#ccc' }}>CHAMPIONSHIP GEAR & ACCESSORIES</p>
+      </div>
+
+      <div style={{ maxWidth: '1200px', margin: '40px auto', padding: '0 20px' }}>
+        <div className="section-title-container" style={{ marginBottom: '30px' }}>
+          <h2 className="boxed-title">FOOTBALL EQUIPMENT</h2>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>
+          {products.map(product => (
+            <ProductCard key={product.id} title={product.title} price={product.price} image={product.image} category={product.category} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Football;

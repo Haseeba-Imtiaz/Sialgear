@@ -20,6 +20,7 @@ function Home() {
             <div className="sport-img-box">
               <img src="https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=600" alt="Jackets" />
             </div>
+           <Link to="/jackets" style={{ textDecoration: 'none', color: 'inherit' }}></Link>
             <p>JACKETS & APPAREL</p>
           </div>
           <div className="sport-card">
