@@ -22,7 +22,51 @@ function Women() {
       price: "Rs. 4,800",
       image: "/women.png", // Aapka local image path
       category: "JACKETS"
-    }
+    },
+    {
+      id: 101,
+      title: "AeroDry Training Leggings",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?q=80&w=500",
+      category: "FITNESS WEAR"
+    },
+    {
+      id: 102,
+      title: "Impact Sports Crop Top",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 103,
+      title: "Pro-Fit Running Jacket",
+      price: "Rs. 4,800",
+      image: "/women.png", // Aapka local image path
+      category: "JACKETS"
+    },
+    {
+      id: 101,
+      title: "AeroDry Training Leggings",
+      price: "Rs. 2,900",
+      image: "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?q=80&w=500",
+      category: "FITNESS WEAR"
+    },
+    {
+      id: 102,
+      title: "Impact Sports Crop Top",
+      price: "Rs. 1,950",
+      image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 103,
+      title: "Pro-Fit Running Jacket",
+      price: "Rs. 4,800",
+      image: "/women.png", // Aapka local image path
+      category: "JACKETS"
+    },
+    
+    
   ];
 
   return (
