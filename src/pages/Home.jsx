@@ -15,43 +15,64 @@ function Home() {
         <div className="section-title-container">
           <h2 className="boxed-title">SHOP BY INTEREST</h2>
         </div>
-        <div className="sport-grid-container">
+
+<div className="sport-grid-container">
+        <Link to="/jackets" style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="sport-card">
             <div className="sport-img-box">
               <img src="https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=600" alt="Jackets" />
             </div>
-           <Link to="/jackets" style={{ textDecoration: 'none', color: 'inherit' }}></Link>
             <p>JACKETS & APPAREL</p>
           </div>
+          </Link>
+
+
           <div className="sport-card">
+            <Link to="/gloves" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
               <img src="/gloves.jpg" alt="Gloves" />
             </div>
             <p>GLOVES</p>
+            </Link>
           </div>
+        
+
           <div className="sport-card">
+            <Link to="/football" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
               <img src="/footbal.jpg" alt="Football" />
             </div>
             <p>FOOTBALL</p>
+            </Link>
           </div>
+
+
           <div className="sport-card">
+            <Link to="/hockey" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
               <img src="/hockey.jpg" alt="hockey" />
             </div>
             <p>HOCKEY</p>
+            </Link>
           </div>
+
+
           <div className="sport-card">
+            <Link to="/fitness" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
               <img src="/fitness.jpg" alt="fitness" />
             </div>
             <p>GYM & FITNESS</p>
+            </Link>
           </div>
+
           <div className="sport-card">
+            <Link to="/running" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
               <img src="/running.jpg" alt="Socks" />
             </div>
             <p>RUNNING GEAR</p>
+            </Link>
           </div>
         </div>
       </section>
