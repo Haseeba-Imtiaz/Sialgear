@@ -30,6 +30,174 @@ function Men() {
       price: "Rs. 4,200",
       image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
       category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
+    },
+    {
+      id: 1,
+      title: "Pro Performance Windbreaker",
+      price: "Rs. 4,500",
+      image: "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=500",
+      category: "JACKETS"
+    },
+    {
+      id: 2,
+      title: "Elite Training Gym Hoodie",
+      price: "Rs. 3,800",
+      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500",
+      category: "HOODIES"
+    },
+    {
+      id: 3,
+      title: "Stealth Leather Gym Gloves",
+      price: "Rs. 2,200",
+      image: "/gloves.jpg", // Jo aapke public folder mein hai
+      category: "GLOVES"
+    },
+    {
+      id: 4,
+      title: "Alpha Tech Track Fleece",
+      price: "Rs. 4,200",
+      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500",
+      category: "ACTIVEWEAR"
     }
   ];
 
