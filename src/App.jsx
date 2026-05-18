@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Accessories from './pages/Accessories';
+<Route path="/accessories" element={<Accessories />} />
 
-// Sub components aur pages ko yahan import kiya hai
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -20,7 +22,7 @@ function App() {
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         
-        {/* Baki Pages ke dummy routes */}
+        {/* Baki Pages ke temporary dummy routes */}
         <Route path="/accessories" element={<div style={{ color: 'white', padding: '100px', textAlign: 'center' }}><h2>ACCESSORIES</h2><p>Coming Soon...</p></div>} />
         <Route path="/fitness" element={<div style={{ color: 'white', padding: '100px', textAlign: 'center' }}><h2>FITNESS GEAR</h2><p>Coming Soon...</p></div>} />
         <Route path="/sports-brand" element={<div style={{ color: 'white', padding: '100px', textAlign: 'center' }}><h2>SPORTS BRAND</h2><p>Coming Soon...</p></div>} />
