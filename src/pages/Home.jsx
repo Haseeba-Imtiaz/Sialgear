@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
@@ -57,6 +59,7 @@ function Home() {
         <div className="section-title-container">
           <h2 className="boxed-title">SHOP BY CATEGORY</h2>
         </div>
+        <Link to="/men" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
         <div className="category-grid-container">
           {/* Left Side - Bari Picture (MEN) */}
           <div className="category-card large-card">
@@ -65,9 +68,9 @@ function Home() {
               <h3>MEN</h3>
               <p>CLOTHING | SHOES</p>
             </div>
-          </div>
+      </div>
 
-          {/* Right Side - Do Choti Pictures */}
+          <Link to="/women" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
           <div className="right-column">
             {/* Top Right (WOMEN) */}
             <div className="category-card small-card">
@@ -77,8 +80,9 @@ function Home() {
                 <p>CLOTHING | SHOES</p>
               </div>
             </div>
+            
 
-            {/* Bottom Right (ACCESSORIES) */}
+            <Link to="/accessories" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}></Link>
             <div className="category-card small-card">
               <img src="/asseccories.jpg" alt="Accessories" />
               <div className="category-info">
