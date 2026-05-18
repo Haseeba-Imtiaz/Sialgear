@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
-// Sub components aur pages ko sahi paths ke sath import kiya hai
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';

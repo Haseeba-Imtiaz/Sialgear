@@ -58,9 +58,9 @@ function Home() {
 
 
           <div className="sport-card">
-            <Link to="/fitness" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/Fitness" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="sport-img-box">
-              <img src="/fitness.jpg" alt="fitness" />
+              <img src="/fitness.jpg" alt="Fitness" />
             </div>
             <p>GYM & FITNESS</p>
             </Link>
