@@ -13,7 +13,7 @@ import Jackets from './pages/Jackets';
 import Gloves from './pages/Gloves';
 import Football from './pages/Football';
 import Hockey from './pages/Hockey';
-import Fitness from './pages/Fittness';
+import Fitness from './pages/Fitness';
 import Running from './pages/Running';
 
 function App() {
