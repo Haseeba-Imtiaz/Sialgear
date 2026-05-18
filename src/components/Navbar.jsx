@@ -20,7 +20,6 @@ function Navbar() {
               <li><Link to="/women" style={{ color: 'inherit', textDecoration: 'none' }}>WOMEN</Link></li>
               <li><Link to="/accessories" style={{ color: 'inherit', textDecoration: 'none' }}>ACCESSORIES</Link></li>
               <li><Link to="/fitness" style={{ color: 'inherit', textDecoration: 'none' }}>FITNESS</Link></li>
-              <li><Link to="/sports-brand" style={{ color: 'inherit', textDecoration: 'none' }}>SPORTS BRAND</Link></li>
             </ul>
           </div>
           <div className="nav-actions">
