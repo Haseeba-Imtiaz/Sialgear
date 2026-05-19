@@ -4,10 +4,16 @@ function Football() {
   const products = [
     {
       id: 601,
-      title: "Match Play Pro Football",
-      price: "Rs. 3,500",
-      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=500",
-      category: "FOOTBALL"
+      title: "Match Play Football",
+      price: "£15",
+      images: [
+      "/images/football1.jpg", 
+      "/images/football2jpg", 
+      "/images/football3.jpg"  
+    ],
+    category: "FOOTBALL",
+    description: "Premium quality Match Play Pro Football designed for professional tournaments. Features high durability, excellent air retention, and perfect aerodynamic flight control. Perfect for all weather conditions."
+
     },
     {
       id: 602,
