@@ -7,6 +7,7 @@ function Football() {
       id: 601,
       title: "Match Play Football",
       price: "£15",
+      image: "/footbal1.jpg",
       images: [
         "/football1.jpg",
         "/football2.jpg",
