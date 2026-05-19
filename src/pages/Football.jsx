@@ -7,9 +7,9 @@ function Football() {
       title: "Match Play Football",
       price: "£15",
       images: [
-      "/images/football1.jpg", 
-      "/images/football2jpg", 
-      "/images/football3.jpg"  
+      "/public/football1.jpg", 
+      "/public/football2.jpg", 
+      "/public/football3.jpg"  
     ],
     category: "FOOTBALL",
     description: "Premium quality Match Play Pro Football designed for professional tournaments. Features high durability, excellent air retention, and perfect aerodynamic flight control. Perfect for all weather conditions."
@@ -22,7 +22,7 @@ function Football() {
       image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
       category: "GEAR"
     },
-    {
+    { 
       id: 601,
       title: "Match Play Pro Football",
       price: "Rs. 3,500",
