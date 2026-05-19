@@ -14,6 +14,7 @@ import Football from './pages/Football';
 import Hockey from './pages/Hockey';
 import Fitness from './pages/Fitness';
 import Running from './pages/Running';
+import ProductDetails from './pages/ProductDetails';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/hockey" element={<Hockey />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/running" element={<Running />} />
+        <Route path="/product/301" element={<ProductDetails />} />
       </Routes>
 
       {/* Footer sab pages par neeche show hoga */}

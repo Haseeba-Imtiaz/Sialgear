@@ -1,4 +1,5 @@
 import ProductCard from '../components/ProductCard';
+import { Link } from 'react-router-dom';
 
 function Football() {
   const products = [
@@ -7,22 +8,28 @@ function Football() {
       title: "Match Play Football",
       price: "£15",
       images: [
-      "/public/football1.jpg", 
-      "/public/football2.jpg", 
-      "/public/football3.jpg"  
-    ],
-    category: "FOOTBALL",
-    description: "Premium quality Match Play Pro Football designed for professional tournaments. Features high durability, excellent air retention, and perfect aerodynamic flight control. Perfect for all weather conditions."
-
+        "/football1.jpg",
+        "/football2.jpg",
+        "/football3.jpg",
+      ],
+      category: "FOOTBALL",
+      description: "Premium quality Match Play Pro Football designed for professional tournaments. Features high durability, excellent air retention, and perfect aerodynamic flight control. Perfect for all weather conditions."
     },
+
     {
       id: 602,
       title: "Carbon Fiber Shin Guards",
-      price: "Rs. 1,200",
-      image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500",
-      category: "GEAR"
+      price: "£12",
+      images: [
+        "/images/football-main.jpg",
+        "/images/football-side.jpg",
+        "/images/football-box.jpg"
+      ],
+      category: "FOOTBALL",
+      description: "Premium quality Match Play Pro Football designed for professional tournaments. Features high durability, excellent air retention, and perfect aerodynamic flight control. Perfect for all weather conditions."
     },
-    { 
+
+    {
       id: 601,
       title: "Match Play Pro Football",
       price: "Rs. 3,500",
@@ -137,10 +144,17 @@ function Football() {
         <div className="section-title-container" style={{ marginBottom: '30px' }}>
           <h2 className="boxed-title">FOOTBALL EQUIPMENT</h2>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
           {products.map(product => (
-            <ProductCard key={product.id} title={product.title} price={product.price} image={product.image} category={product.category} />
+            <Link
+              to="/product/301"
+              key={product.id}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <ProductCard title={product.title} price={product.price} image={product.image} />
+            </Link>
           ))}
+
         </div>
       </div>
     </div>
